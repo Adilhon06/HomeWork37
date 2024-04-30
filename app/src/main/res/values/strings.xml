@@ -6,4 +6,7 @@
     <string name="minus">-</string>
     <string name="celebrity_image">Celebrity Image</string>
     <string name="name_celebrity">Kim Kardashyan</string>
+    <string name="add_new_item">ADD</string>
+    <string name="item_name">Введите имя</string>
+    <string name="item_url">Введите Ссылку</string>
 </resources>

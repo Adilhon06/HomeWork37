@@ -28,6 +28,7 @@ class RecyclerFragment : Fragment() {
         setupRecyclerView()
     }
 
+
     private fun addCinemas() {
         addCelebrity(
             "Billie Eilish",
@@ -80,5 +81,9 @@ class RecyclerFragment : Fragment() {
         super.onDestroyView()
         _binding = null
         celebritiesAdapter = null
+    }
+
+    companion object{
+        const val RECYCLER_TAG = "recycler"
     }
 }

@@ -40,7 +40,7 @@ class HomeFragment : Fragment() {
             } else {
                 parentFragmentManager.beginTransaction()
                     .add(R.id.fragment_container, RecyclerFragment())
-                    .addToBackStack("HomeFragment")
+                    .addToBackStack(HOME_FRAGMENT)
                     .commit()
             }
         }
@@ -58,6 +58,7 @@ class HomeFragment : Fragment() {
     }
 
     companion object {
+        const val HOME_FRAGMENT = "HomeFragment"
         const val COUNT = "count"
     }
 }
